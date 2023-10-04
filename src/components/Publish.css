@@ -1,0 +1,35 @@
+.container-publish {
+    position: relative;
+    padding-top: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.field {
+    padding-top: 20px;
+}
+
+.send-video {
+    position: absolute;
+    top: 210px;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    min-height:30px;
+    min-width: 120px;
+}
+
+.send-video:hover {
+    background-color:#002ead;
+    transition: 0.4s;
+}
+
+
+.field-input {
+    padding-left:40px;
+    border-radius:10px;
+}
